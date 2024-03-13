@@ -1,0 +1,100 @@
+body {
+    background-color: #FFFFDE;
+}
+
+#container {
+    text-align: center;
+}
+
+.title {
+    color: #805300;
+}
+
+#form-container {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 12px;
+    /* background-color: #805300; */
+}
+
+#info {
+    /* background-color: #805300; */
+    /* color: red; */
+    text-align: left;
+    display: inline-block;
+    padding: 24px;
+    margin: 0 auto;
+}
+
+#time {
+    color: red;
+    margin: 0 auto;
+}
+
+.amount {
+    width: 250px;
+}
+
+#bb {
+    text-align: center;
+    margin: 100px auto;
+    /* background-color: coral; */
+    padding: 6px;
+}
+
+form {
+    width: 500px;
+    background-color: #D6D6FF;
+    color: #0000A8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: left;
+    height: 200px;
+}
+
+button {
+
+    width: 80px;
+    border: 0;
+    height: 24px;
+    background-color: yellow;
+    border-radius: 6px;
+    margin: 0 6px;
+    font-weight: bold;
+}
+
+#reset {
+    background-color: pink;
+}
+
+input {
+    text-align: center;
+    font-size: 16px;
+    margin: 6px;
+    width: 66%;
+    /* height: 16px; */
+}
+
+label {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+select,
+option {
+    /* text-align: center; */
+    width: 120px;
+    font-size: 16px;
+    height: 25px
+}
+
+#result {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
